@@ -1,0 +1,11 @@
+set ts=2
+set sts=2
+set sw=2
+set bs=2
+set et
+set ai
+set si
+set ruler
+set nu
+syn enable
+set mouse=a

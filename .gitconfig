@@ -1,0 +1,12 @@
+[user]
+	name = Fred Emmott
+	email = fred@fredemmott.co.uk
+	signingKey = 789FCA28!
+[commit]
+	gpgsign = true
+[alias]
+	stash = -c commit.gpgsign=false stash
+	stashq = -c commit.gpgsign=false stash
+	qc = commit --no-gpg-sign
+[merge]
+	tool = vimdiff
