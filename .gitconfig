@@ -1,6 +1,6 @@
 [user]
 	name = Fred Emmott
-	email = fred@fredemmott.co.uk
+	email = fe@fb.com
 	signingKey = 789FCA28!
 [commit]
 	gpgsign = true
