@@ -18,5 +18,6 @@ let g:LanguageClient_serverCommands = {
   \ 'hh': [ 'hh_client', 'lsp' ],
   \ }
 
+let g:hack#enable = 0
 nnoremap <silent> K :call LanguageClient_textDocument_hover()<CR>
 nnoremap <silent> gd :call LanguageClient_textDocument_definition()<CR>
