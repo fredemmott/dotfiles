@@ -11,7 +11,10 @@ set nu
 
 call plug#begin('~/.vim/plugged')
 Plug 'hhvm/vim-hack'
-Plug 'autozimu/LanguageClient-neovim', {'tag': 'binary-*-x86_64-apple-darwin' }
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
 call plug#end()
 
 let g:LanguageClient_serverCommands = {
