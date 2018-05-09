@@ -8,6 +8,7 @@ set ruler
 syn enable
 set bg=dark
 set nu
+set mouse=a
 
 call plug#begin('~/.vim/plugged')
 Plug 'hhvm/vim-hack'
