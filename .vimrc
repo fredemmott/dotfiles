@@ -48,11 +48,13 @@ if v:version >= 800
   nnoremap <M-LeftMouse> <LeftMouse>:ALEGoToDefinition<CR>
 
   " show type on hover
-  if v:version >= 801
+  if has('balloon_eval_term')
     set balloonevalterm
     let g:ale_set_balloons = 1
     let balloondelay = 250
   endif
 endif
 
-set ttymouse=sgr
+if has('mouse_sgr')
+  set ttymouse=sgr
+endif
