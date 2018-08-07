@@ -11,4 +11,5 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "vim.enableNeovim": true,
 }
