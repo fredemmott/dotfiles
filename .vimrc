@@ -10,6 +10,8 @@ syn enable
 set bg=dark
 set nu
 set mouse=a
+set textwidth=80
+set colorcolumn=81
 
 call plug#begin('~/.vim/plugged')
 
