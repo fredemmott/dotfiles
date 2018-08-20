@@ -27,7 +27,6 @@ endif
 if v:version >= 800
   Plug 'w0rp/ale'
   Plug 'vim-airline/vim-airline'
-  Plug 'airblade/vim-gitgutter'
   Plug 'tpope/vim-fugitive'
 endif
 
